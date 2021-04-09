@@ -16,7 +16,6 @@ li {
 .container {
     width: 80%;
     height: 100px;
-    background-color: aquamarine;
     margin: 20px auto;
     display: flex;
     align-items: center;
@@ -39,7 +38,7 @@ nav {
     justify-content: space-between;
 }
 
-.products {
+.menu {
     position: relative;
 }
 
