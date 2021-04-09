@@ -10,6 +10,12 @@ li {
     padding: 0 10px;
     color: rgb(54, 54, 54);
 }
+
+a {
+    text-decoration: none;
+    color:  rgb(54, 54, 54);;
+}
+
 /* END COMMON  */
 
 /* HEADER  */
@@ -40,13 +46,18 @@ nav {
 
 .menu {
     position: relative;
+    padding-bottom: 10px;
+}
+
+.color-blue {
+    color: blue;
 }
 
 .dropdown-menu {
     width: 200px;
     position: absolute;
-    top: 125%;
-    left: -28%;
+    top: 80%;
+    left: 0%;
     display: none;
 }
 
@@ -54,6 +65,14 @@ nav {
     display: block;
     padding: 10px 0;
     
+}
+
+.dropdown-menu a:hover {
+    text-decoration: underline;
+}
+
+.fa-chevron-up {
+    display: none;
 }
 /* right-menu  */
 
