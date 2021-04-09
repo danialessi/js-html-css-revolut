@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON  */
+li {
+    display: inline-block;
+    padding: 0 10px;
+    color: rgb(54, 54, 54);
+}
+/* END COMMON  */
+
+/* HEADER  */
+.container {
+    width: 80%;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+/* logo  */
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 80%;
+}
+/* end logo  */
+
+/* navbar  */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products {
+    position: relative;
+}
+
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 125%;
+    left: -28%;
+    display: none;
+}
+
+.dropdown-menu li {
+    display: block;
+    padding: 10px 0;
+    
+}
+/* right-menu  */
+
+/* end right-menu  */
+/* end navbar  */
+/* END HEADER  */
